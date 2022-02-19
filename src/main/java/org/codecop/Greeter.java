@@ -11,6 +11,6 @@ public class Greeter {
         if (name == null) {
             return GREETING;
         }
-        return GREETING + " " + name.trim();
+        return GREETING + " " + name;
     }
 }
